@@ -1,7 +1,7 @@
 /*Q2*/
 let a = "usman";
-console.log("hello"+a);*/
-/*Q3
+console.log("hello"+a);
+/*Q3*/
 let b="usman";
 console.log(b.toUpperCase());
 
@@ -86,47 +86,26 @@ let placesToVisit: string[] = [
     "New York City"
 ];
 
-
 console.log("Original array:", placesToVisit);
-
-
 console.log("Alphabetical order:", [...placesToVisit].sort());
-
-
 console.log("Original array:", placesToVisit);
-
-
 console.log("Reverse alphabetical order:", [...placesToVisit].sort().reverse());
-
-
 console.log("Original array:", placesToVisit);
-
-
 placesToVisit.reverse();
 console.log("Reversed array:", placesToVisit);
-
-
 placesToVisit.reverse();
 console.log("Original array:", placesToVisit);
-
-
 placesToVisit.sort();
 console.log("Sorted array:", placesToVisit);
-
-
 placesToVisit.sort((a, b) => b.localeCompare(a));
 console.log("Reverse sorted array:", placesToVisit);
 
 /*Q19*/
 let dinnerGuests: string[] = [" mana, ", "saria, ", "zuhaib", " ahmed"];
-
 console.log(`Number of dinner guests: ${dinnerGuests.length}`);
 
 /*Q20*/
-
 let Mountains: string[] = ["Mount Everest", "K2", "Makalu"];
-
-
 console.log("List of mountains:");
 for (let i = 0; i < Mountains.length; i++) {
     console.log((i + 1) + ". " + Mountains[i]);
@@ -137,8 +116,6 @@ for (let i = 0; i < Mountains.length; i++) {
 let country1: { name: string } = { name: "United States" };
 let country2: { name: string } = { name: "France" };
 let country3: { name: string } = { name: "China" };
-
-
 console.log("Country 1:", country1.name);
 console.log("Country 2:", country2.name);
 console.log("Country 3:", country3.name);
@@ -146,11 +123,7 @@ console.log("Country 3:", country3.name);
 /*Q22*/
 
 let mountains: string[] = ["Mount Everest", "K2", "Makalu"];
-
-
 let indexOfMountain = mountains[10];
-
-
 console.log("List of mountains:");
 for (let i = 0; i < mountains.length; i++) {
     console.log((i + 1) + ". " + mountains[i]);
@@ -162,44 +135,24 @@ let b = 10;
 let c = 5;
 let str1 = "hello";
 let str2 = "world";
-
-
 console.log("Is x == 5? prediction isTrue.");
 console.log(a == 5);
-
-
 console.log("Is y == 10? prediction isTrue.");
 console.log(b == 10);
-
-
 console.log("Is z == 3? prediction isFalse.");
 console.log(c == 3);
-
-
 console.log("Is x != y? prediction isTrue.");
 console.log(a != b);
-
-
 console.log("Is x < y? prediction isTrue.");
 console.log(a < b);
-
-
 console.log("Is x >= z? prediction isTrue.");
 console.log(a >= c);
-
-
 console.log("Is str1 == 'hello'? prediction isTrue.");
 console.log(str1 == "hello");
-
-
 console.log("Is str1 != str2? prediction isTrue.");
 console.log(str1 != str2);
-
-
 console.log("Is typeof x === typeof z? prediction isTrue.");
 console.log(typeof a === typeof c);
-
-
 console.log("Is typeof x === typeof str1? prediction isFalse.");
 console.log(typeof a === typeof str1);
 
@@ -209,33 +162,22 @@ let str5 = "world";
 let num1 = 10;
 let num2 = 20;
 let array = [1, 2, 3, 4, 5];
-
-
 console.log("Test for equality with strings: 'hello' == 'hello'");
 console.log(str1 == 'hello'); 
 console.log("Test for inequality with strings: 'hello' != 'world'");
 console.log(str1 != str2); 
-
 console.log("Test using the lower case function: 'HELLO' converted to lowercase is 'hello'");
 console.log(str1.toLowerCase() === 'hello'); 
-
-
 console.log("Numerical test: 10 < 20");
 console.log(num1 < num2); 
 console.log("Numerical test: 20 >= 20");
 console.log(num2 >= num2); 
-
-
 console.log("Test using 'and' operator: 10 < 20 and 'hello' == 'hello'");
 console.log(num1 < num2 && str1 == 'hello'); 
 console.log("Test using 'or' operator: 10 > 20 or 'hello' != 'world'");
 console.log(num1 > num2 || str1 != str2); 
-
-
 console.log("Test whether '3' is in the array: [1, 2, 3, 4, 5]");
 console.log(array.includes(3)); 
-
-
 console.log("Test whether '6' is not in the array: [1, 2, 3, 4, 5]");
 console.log(!array.includes(6)); 
 
@@ -245,9 +187,7 @@ let alien_color: string = 'green';
 if (alien_color === 'green') {
     console.log("The player earned 5 points.");
 }
-
 let alien_color1: string = 'yellow';
-
 if (alien_color === 'green') {
     console.log("The player earned 5 points.");
 }
@@ -260,7 +200,6 @@ if (alien_color2 === 'green') {
 } else {
     console.log("The player just earned 10 points.");
 }
-
 let alien_colorElse: string = 'red';
 
 if (alien_colorElse === 'green') {
@@ -324,21 +263,17 @@ let favorite_fruits: string[] = ["apple", "banana", "mango"];
 if (favorite_fruits.includes("saib/aaple")) {
     console.log("You really like apples");
 }
-
 if (favorite_fruits.includes("banana/kela")) {
     console.log("You really like bananas");
 }
-
 if (favorite_fruits.includes("aam/mango")) {
     console.log("You really like mangoes");
 }
-
 if (favorite_fruits.includes("musami/orange")) {
     console.log("You really like oranges");
 } else {
     console.log("Oranges are not in your favorite fruits.");
 }
-
 if (favorite_fruits.includes("watermelon")) {
     console.log("You really like watermelon");
 } else {
@@ -356,7 +291,8 @@ if (usernames.length > 0) {
             console.log(`Hello ${username}, thank you for logging in :).`);
         }
     }
-} else {
+} 
+else {
     console.log("We need to find some users!");
 }
 
@@ -593,5 +529,3 @@ function car_info(manufacturer: string, model: string, ...details:
 
 let car = car_info("Toyota", "Camry", color: "blue", year: 2022);
 console.log(car);
-
-
